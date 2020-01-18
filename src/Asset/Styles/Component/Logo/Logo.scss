@@ -1,0 +1,13 @@
+.logo {
+    height: 40px;
+    width: 100%; 
+    background-image: url("../../../../Asset/Images/logo-all-dark.svg");
+    background-repeat: no-repeat;
+}
+
+@media (max-width:767px) {
+    .logo {
+        height: 20px;
+        background-image: url("../../../../Asset/Images/logotype-sm-dark.svg");
+    }
+}
