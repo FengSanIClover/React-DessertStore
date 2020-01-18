@@ -2,10 +2,8 @@
 
 .toolbar__container--max-width {
     @include screen-max-width(940px);
+    @include display-flex(center,space-around);
     height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     background-color: lightblue;
 }
 

@@ -1,0 +1,18 @@
+@import '../../Container/Main/mixin';
+@import '../../Container/Main/base-color';
+
+.navigationItems__container {
+    height: 100%;
+    @include display-flex(center,space-around);
+
+    div {
+        width: 40px;
+        padding: 30px;
+        color: $base_color3;
+
+        &:hover {
+            color: $base_color1;
+            background-color: $base_color3;
+        }
+    }
+}

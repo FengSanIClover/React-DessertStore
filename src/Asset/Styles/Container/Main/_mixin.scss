@@ -2,3 +2,9 @@
     max-width: $width;
     margin: 0 auto;
 }
+
+@mixin display-flex($align-items,$justify-content: center) {
+    display: flex;
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
