@@ -1,15 +1,13 @@
-@import '../../Container/Main/mixin';
 @import '../../Container/Main/base-color';
+@import '../../Container/Main/mixin';
 
-.navigationItems__container {
+.shoppingCar__container {
     height: 100%;
     @include display-flex(center,space-around);
-    div {
-        width: 40px;
-        padding: 30px;
+    p {
+        padding: 30px 40px;
         color: $base_color3;
         cursor: pointer;
-
         &:hover {
             color: $base_color1;
             background-color: $base_color3;

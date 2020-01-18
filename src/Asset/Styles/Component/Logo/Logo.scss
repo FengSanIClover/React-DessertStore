@@ -1,12 +1,13 @@
-.logo {
+.logo__container {
     height: 40px;
     width: 100%; 
     background-image: url("../../../../Asset/Images/logo-all-dark.svg");
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 @media (max-width:767px) {
-    .logo {
+    .logo__container {
         height: 20px;
         background-image: url("../../../../Asset/Images/logotype-sm-dark.svg");
     }
