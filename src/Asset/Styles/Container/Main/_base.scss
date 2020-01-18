@@ -1,0 +1,6 @@
+@import 'mixin';
+@import 'base-color';
+
+.base_container{
+    @include screen-max-width(1024px)
+}
