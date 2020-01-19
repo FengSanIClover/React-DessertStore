@@ -1,5 +1,6 @@
 import React from 'react';
 import Toolbar from '../Toolbar';
+import Footer from '../Footer';
 
 const layout = (props) => {
     return (
@@ -8,7 +9,7 @@ const layout = (props) => {
             <main>
                 {props.children}
             </main>
-            <div>footer</div>
+            <Footer />
         </>
     )
 }
