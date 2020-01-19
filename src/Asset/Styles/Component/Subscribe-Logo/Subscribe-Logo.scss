@@ -1,0 +1,22 @@
+@import '../../Container/Main/mixin';
+@import '../../Container/Main/base-color';
+
+.subscribe-logo__container {
+    @include display-flex(center);
+}
+
+.subscribe-logo__img{
+    height: 20px;
+    width: 20px;
+    background-image: url("../../../../Asset/Images/logo-light.svg");
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.subscribe-logo__text{
+    color: $base_color1;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+

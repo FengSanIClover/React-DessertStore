@@ -1,0 +1,19 @@
+@import '../../Container/Main/base-color';
+@import '../../Container/Main/mixin';
+
+.subscribe__container {
+    @include display-flex(center,space-around);
+    background-color: $base_color3;
+    height: 120px;
+    width: 100%;
+}
+
+@media (max-width:767px) {
+    .subscribe__container {
+        justify-content: center;
+        background-color: $base_color3;
+        height: 200px;
+        width: 100%;
+        flex-flow: column;
+    }
+}
