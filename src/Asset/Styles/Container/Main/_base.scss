@@ -4,3 +4,9 @@
 .base_container{
     @include screen-max-width(1024px)
 }
+
+@media (max-width:767px){
+    .base_container{
+       width: 100%;
+    }
+}

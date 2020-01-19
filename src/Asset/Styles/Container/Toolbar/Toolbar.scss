@@ -4,12 +4,12 @@
     @include screen-max-width(940px);
     @include display-flex(center,space-around);
     height: 100px;
-    background-color: lightblue;
 }
 
 @media (max-width:767px) {
     .toolbar__container--max-width {
         width: 100%;
         height: 80px;
+        background-color: lightblue;
     }
 }

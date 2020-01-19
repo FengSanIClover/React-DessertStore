@@ -1,11 +1,12 @@
 import React from 'react';
 import Subscribe from 'Component/Subscribe';
+import Copyright from 'Component/Copyright'
 
 const footer = () => {
     return (
         <div>
             <Subscribe />
-            <div>著作權資訊</div>
+            <Copyright />
         </div>
     )
 }

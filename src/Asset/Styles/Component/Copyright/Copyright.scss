@@ -1,0 +1,43 @@
+@import '../../Container/Main/base-color';
+@import '../../Container/Main/mixin';
+
+.copyright__container {
+    @include display-flex(center);
+    flex-flow: column;
+    background-color: $base_color4;
+    width: 100%;
+    height: 350px;
+
+    .copyright__logo {
+        @include display-flex(center,space-around);
+        width: 100%;
+        height: 100%;
+        background-color: lightskyblue;
+
+        .copyright__logo__contact {
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        .copyright__logo__rightImg {
+            width: 100%;
+            height: 220px;
+            background-position:right;
+            background-image: url("../../../../Asset/Images/lg-今天是個吃甜點的好日子.svg");
+            background-repeat: no-repeat;
+            margin-right: 5%;
+        }
+    }
+
+    .copyright__declarate {
+        width: 100%;
+        height: 100%;
+        background-color: lightpink;
+    }
+}
+
+@media (max-width:767px){
+    .copyright__container {
+        height: 310px;
+    }
+}
